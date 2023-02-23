@@ -54,6 +54,12 @@ a, a:visited, a:hover, a:active {
     color: inherit;
   }
 
+ a {
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+ } 
+
 #navbar {
     position: fixed;
     min-width: 280px;
@@ -62,5 +68,23 @@ a, a:visited, a:hover, a:active {
     width: 100px;
     height: 100%;
     border-right: dashed;
-    border-color: lightgray
+    border-color: lightgray;
+    padding-top: 15px;
+}
+
+#navbar header {
+    text-align: center;
+    font-weight: bold;
+}
+
+#navbar li {
+    border-top: 2.5px solid;
+    list-style: none;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
