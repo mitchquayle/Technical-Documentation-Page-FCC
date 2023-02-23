@@ -49,3 +49,18 @@ h3 {
 p {
     padding-right: 20%
 }
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+#navbar {
+    position: fixed;
+    min-width: 280px;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100%;
+    border-right: dashed;
+    border-color: lightgray
+}
