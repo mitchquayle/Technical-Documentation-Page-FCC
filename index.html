@@ -12,11 +12,12 @@
         <nav id="navbar">
             <header>HTML Documentation</header>
             <ul>
-                <li> <a class="nav-link" href="#introduction">Introduction</a> </li>
-                <li> <a class="" href="#basics_and_page_setup">Basics and page setup</a> </li>
-                <li><a class="" href="#JavaScript"></a> </li>
-                <li><a class="" href="#Cascading_Style_Sheets"></a> </li>
-                <li><a class="" href="#"></a> </li>
+                <li><a class="nav-link" href="#introduction">Introduction</a> </li>
+                <li><a class="" href="#basics_and_page_setup">Basics and page setup</a> </li>
+                <li><a class="" href="#HTML_Document_declaration"></a> </li>
+                <li><a class="" href="#HTML_Head_tag"></a> </li>
+                <li><a class="" href="#Meta_Tag"></a> </li>
+                <li><a class="" href="#Body_tag"></a> </li>
 
             </ul>
 
@@ -39,13 +40,14 @@
                 </header>
                 <p>
                     HTML markup consists of several key components, including those called tags (and their attributes),
-                    character-based data types, character references and entity references. 
+                    character-based data types, character references and entity references.
                 </p>
                 <p>
                     HTML tags most commonly come
-                    in pairs like &lt;h1&gt and &lt;/h1&gt, although some represent empty elements and so are unpaired, for
-                            example &lt;img&gt. The first tag in such a pair is the start tag, and the second is the end tag
-                                (they are also called opening tags and closing tags).
+                    in pairs like &lt;h1&gt and &lt;/h1&gt, although some represent empty elements and so are unpaired,
+                    for
+                    example &lt;img&gt. The first tag in such a pair is the start tag, and the second is the end tag
+                    (they are also called opening tags and closing tags).
                 </p>
 
                 <h3>Example template for a HTML page</h3>
@@ -71,74 +73,113 @@
 
             </section>
 
-            <section class="main-section" id="HTML_Element">
+            <section class="main-section" id="HTML_Document_declaration">
                 <header class="section-header"> HTML Document declaration
                 </header>
                 <p>
 
                     All HTML documents must start with a &lt;!DOCTYPE html&gt; declaration.
-                    The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
-                    
+                    The declaration is not an HTML tag. It is an "information" to the browser about what document type
+                    to expect.
+
                 </p>
 
                 <p>
-                   The &lt;html&gt;  tag represents the root of an HTML document.
-                   The &lt;html&gt; tag is the container for all other HTML elements
-
-                   <strong>Note:</strong> You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+                    The &lt;html&gt; tag represents the root of an HTML document.
+                    The &lt;html&gt; tag is the container for all other HTML elements
+                    <br>
+                    <strong>Note:</strong> You should always include the lang attribute inside the &lt;html&gt; tag, to
+                    declare the language of the Web page. This is meant to assist search engines and browsers.
 
                 </p>
             </section>
 
-            <section class="main-section" id="Cascading_Style_Sheets">
-                <header class="section-header"> HTML &lt;head&gt; Tag
+            <section class="main-section" id="HTML_Head_tag">
+                <header class="section-header">HTML Head tag
                 </header>
                 <p>
-                    The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.
+                    The &lt;head&gt; element is a container for metadata (data about data) and is placed between the
+                    &lt;html&gt; tag and the &lt;body&gt; tag.
                 </p>
 
                 <p>
-                    The following elements can go inside the &lt;head&gt; element:  
+                    The following elements can go inside the &lt;head&gt; element:
                 </p>
 
                 <ul id="head-element-list">
-                    <li>&lt;title&gt; (required in every 
-                    HTML document)</li>
+                    <li>&lt;title&gt; <span id="title-sidepoint">(required in every
+                            HTML document)</span></li>
                     <li>&lt;style&gt;</li>
                     <li>&lt;base&gt;</li>
                     <li>&lt;link&gt;</li>
                     <li>&lt;meta&gt;</li>
                     <li>&lt;script&gt;</li>
                     <li>&lt;noscript&gt;</li>
-                    </ul>
+                </ul>
 
+            </section>
+
+
+            <section class="main-section" id="Meta_Tag">
+                <header class="section-header">Meta Tag
+                </header>
+
+                <h3>Meta Tag</h3>
                 <p>
-               Meta elements
+                    The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about
+                    data.
+                    &lt;meta&gt; tags always go inside the &lt;head&gt; element, and are typically used to specify
+                    character set, page description, keywords, author of the document, and viewport settings.
 
                 </p>
 
 
             </section>
 
-            <section class="main-section" id="Explaination_of_section_5">
-                <header class="section-header"> Body element
+            <section class="main-section" id="Body_tag">
+                <header class="section-header">Body element
                 </header>
 
-
                 <p>
-                    Body element explaination 
+                    The &lt;body&gt; tag defines the document's body.
+                    This contains all the contents of an HTML document, such as headings, paragraphs, images,
+                    hyperlinks, tables, lists, etc.
                 </p>
+                
                 <p>
-                    H1, H2, h3
+                    This is the main content of the HTML document or the section of the HTML document that will be
+                    directly visible on your web page. 
                 </p>
 
+                <h3>Heading element</h3>
                 <p>
-                    Div tag
+                    The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings.
+                    &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.
+
                 </p>
 
+                <h3>Paragraph Element</h3>
                 <p>
-
+                    The &lt;p&gt; HTML element represents a paragraph. Paragraphs are usually represented in visual
+                    media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
+                    but HTML paragraphs can be any structural grouping of related content, such as images or form
+                    fields.
                 </p>
+
+                <h3>Div Element</h3>
+                <p>
+                    The &lt;div&gt; tag defines a division or a section in an HTML document.
+                </p>
+
+                <p> The &lt;div&gt; tag is used as a container for HTML elements - which is then styled with CSS or
+                    manipulated with JavaScript.
+
+                    The &lt;div&gt; tag is easily styled by using the class or id attribute.
+                </p>
+
+                <p>Any sort of content can be put inside the &lt;div&gt; tag! </p>
+
+
             </section>
 
 

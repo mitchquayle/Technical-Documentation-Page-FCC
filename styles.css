@@ -23,7 +23,7 @@ header {
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .default-css-page {
@@ -34,4 +34,18 @@ h3 {
     white-space: pre-wrap;
     outline-style: solid;
     outline-width: 1px;
+}
+
+#head-element-list {
+    font-weight: bold;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+}
+
+p {
+    padding-right: 20%
 }
