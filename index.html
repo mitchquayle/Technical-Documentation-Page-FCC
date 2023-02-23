@@ -2,6 +2,7 @@
     <html lang="en">
 
     <head>
+        <title>HTML - Technical documentation</title>
         <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
             <header>HTML Documentation</header>
             <ul>
                 <li> <a class="nav-link" href="#introduction">Introduction</a> </li>
-                <li> <a class="" href="#basics">Basics and page setup</a> </li>
+                <li> <a class="" href="#basics_and_page_setup">Basics and page setup</a> </li>
                 <li><a class="" href="#JavaScript"></a> </li>
                 <li><a class="" href="#Cascading_Style_Sheets"></a> </li>
                 <li><a class="" href="#"></a> </li>
@@ -34,7 +35,7 @@
             </section>
             <br>
             <section class="main-section" id="basics_and_page_setup">
-                <header class="section-header"> Basics and page setup
+                <header class="section-header">Basics and page setup
                 </header>
                 <p>
                     HTML markup consists of several key components, including those called tags (and their attributes),
@@ -70,48 +71,74 @@
 
             </section>
 
-            <section class="main-section" id="JavaScript">
-                <header class="section-header"> JavaScript
+            <section class="main-section" id="HTML_Element">
+                <header class="section-header"> HTML Document declaration
                 </header>
                 <p>
-                    JavaScript is the dominant client-side scripting language of the Web, with 98% of all websites (mid 2022) using it for this purpose. 
-                    Scripts are embedded in or included from HTML documents and interact with the DOM. All major web browsers have a built-in JavaScript engine that executes the code on the user's device.
 
+                    All HTML documents must start with a &lt;!DOCTYPE html&gt; declaration.
+                    The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
                     
                 </p>
-                
+
                 <p>
-                    
-                    The language is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc
+                   The &lt;html&gt;  tag represents the root of an HTML document.
+                   The &lt;html&gt; tag is the container for all other HTML elements
+
+                   <strong>Note:</strong> You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
                 </p>
             </section>
 
             <section class="main-section" id="Cascading_Style_Sheets">
-                <header class="section-header"> Cascading Style Sheets
+                <header class="section-header"> HTML &lt;head&gt; Tag
                 </header>
                 <p>
-                CSS (Cascading Style Sheets) is the code that styles web content.
+                    The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.
                 </p>
+
                 <p>
-                CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. 
-                For example, this CSS selects paragraph text, setting the color to red:
+                    The following elements can go inside the &lt;head&gt; element:  
+                </p>
+
+                <ul id="head-element-list">
+                    <li>&lt;title&gt; (required in every 
+                    HTML document)</li>
+                    <li>&lt;style&gt;</li>
+                    <li>&lt;base&gt;</li>
+                    <li>&lt;link&gt;</li>
+                    <li>&lt;meta&gt;</li>
+                    <li>&lt;script&gt;</li>
+                    <li>&lt;noscript&gt;</li>
+                    </ul>
+
+                <p>
+               Meta elements
 
                 </p>
 
-<pre class="default-css-page">
-
-    p {
-        color: red;
-    }
-    
-</pre>
 
             </section>
 
             <section class="main-section" id="Explaination_of_section_5">
-                <header class="section-header"> Explaination of section 5
+                <header class="section-header"> Body element
                 </header>
+
+
+                <p>
+                    Body element explaination 
+                </p>
+                <p>
+                    H1, H2, h3
+                </p>
+
+                <p>
+                    Div tag
+                </p>
+
+                <p>
+
+                </p>
             </section>
 
 
