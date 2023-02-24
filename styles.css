@@ -88,7 +88,7 @@ a, a:visited, a:hover, a:active {
     overflow-x: hidden;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) 
     #main-doc {
       margin-left: -10px;
     }
