@@ -10,14 +10,14 @@
 
     <body>
         <nav id="navbar">
-            <header >HTML Documentation</header>
+            <header>HTML Documentation</header>
             <ul>
-                <li><a class="nav-link" href="#introduction">Introduction</a> </li>
-                <li><a class="" href="#basics_and_page_setup">Basics and page setup</a> </li>
-                <li><a class="" href="#html_document_declaration">HTML Document declaration</a></li>
-                <li><a class="" href="#HTML_Head_tag">HTML Head tag</a></li>
-                <li><a class="" href="#Meta_Tag">Meta Tag</a></li>
-                <li><a class="" href="#Body_tag">Body element</a></li>
+                <li><a class="nav-link" href="#Introduction">Introduction</a> </li>
+                <li><a class="nav-link" href="#Basics_and_page_setup">Basics and page setup</a> </li>
+                <li><a class="nav-link" href="#HTML_Document_declaration">HTML Document declaration</a></li>
+                <li><a class="nav-link" href="#HTML_Head_tag">HTML Head tag</a></li>
+                <li><a class="nav-link" href="#Meta_Tag">Meta Tag</a></li>
+                <li><a class="nav-link" href="#Body_element">Body element</a></li>
 
             </ul>
 
@@ -25,8 +25,8 @@
 
         <main id="main-doc">
 
-            <section class="main-section" id="introduction">
-                <header class="section-header"> Introduction
+            <section class="main-section" id="Introduction">
+                <header class="section-header">Introduction
                 </header>
                 <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
                     displayed in a web browser. It is frequently assisted by technologies such as Cascading Style Sheets
@@ -35,7 +35,7 @@
                 </p>
             </section>
             <br>
-            <section class="main-section" id="basics_and_page_setup">
+            <section class="main-section" id="Basics_and_page_setup">
                 <header class="section-header">Basics and page setup
                 </header>
                 <p>
@@ -52,7 +52,8 @@
 
                 <h3>Example template for a HTML page</h3>
                 <p>
-                <pre class="default-html-page">
+                    <code>
+                <pre class="code-outline-box">
 
     &lt;!DOCTYPE html&gt;
     &lt;html&gt;
@@ -66,6 +67,7 @@
         &lt;/body&gt;
     &lt;/html&gt;
                     </pre>
+                </code>
                 </p>
 
 
@@ -73,8 +75,8 @@
 
             </section>
 
-            <section class="main-section" id="html_document_declaration">
-                <header class="section-header"> HTML Document declaration
+            <section class="main-section" id="HTML_Document_declaration">
+                <header class="section-header">HTML Document declaration
                 </header>
                 <p>
 
@@ -98,6 +100,7 @@
                 <header class="section-header">HTML Head tag
                 </header>
                 <p>
+
                     The &lt;head&gt; element is a container for metadata (data about data) and is placed between the
                     &lt;html&gt; tag and the &lt;body&gt; tag.
                 </p>
@@ -106,7 +109,7 @@
                     The following elements can go inside the &lt;head&gt; element:
                 </p>
 
-                <ul id="head-element-list">
+                <ul id="code-outline-box">
                     <li>&lt;title&gt; <span id="title-sidepoint">(required in every
                             HTML document)</span></li>
                     <li>&lt;style&gt;</li>
@@ -132,10 +135,29 @@
 
                 </p>
 
+                <p>
+                    Below are some example tags which can appear in the head element:
+                </p>
+                <code>
+                    <pre class="code-outline-box">
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    </pre>
+                </code>
+
+                <code>
+                    <pre class="code-outline-box">
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+                        </pre>
+                </code>
+
+                <code>
+
+                </code>
+
 
             </section>
 
-            <section class="main-section" id="Body_tag">
+            <section class="main-section" id="Body_element">
                 <header class="section-header">Body element
                 </header>
 
@@ -144,10 +166,10 @@
                     This contains all the contents of an HTML document, such as headings, paragraphs, images,
                     hyperlinks, tables, lists, etc.
                 </p>
-                
+
                 <p>
                     This is the main content of the HTML document or the section of the HTML document that will be
-                    directly visible on your web page. 
+                    directly visible on your web page.
                 </p>
 
                 <h3>Heading element</h3>
@@ -181,39 +203,10 @@
                 <p>Forms section
                     Input
                     Forms
-                    </p>
+                </p>
 
 
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </main>
     </body>
 

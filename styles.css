@@ -3,11 +3,10 @@ html {
 }
 
 
-.default-html-page {
+.code-outline-box {
     background-color: #ddd;
     max-width: 500px;
     border-radius: 3%;
-    margin: 0;
     white-space: pre-wrap;
     outline-style: solid;
     outline-width: 1px;
@@ -88,3 +87,8 @@ a, a:visited, a:hover, a:active {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
